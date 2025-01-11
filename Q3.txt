@@ -1,0 +1,28 @@
+
+setTimeout:
+it runs the function after a specified period of time (milliseconds or parameters).it used to run a function once after a certain period of time
+
+ex:
+
+console.log("Starting...");
+
+setTimeout(() => {
+    console.log("Hello!");
+}, 3000); 
+
+
+//it will run the code after 3 seconds.
+
+
+setInterval:
+it runs the function repeatedly ,until you write a blocking code or close the window.it used it used if you want to run the function non-stop
+
+ex:
+
+
+setInterval(() => {
+    console.log("This message is displayed every second");
+}, 1000);
+
+
+//it will run the code every second till there is a blocking code.

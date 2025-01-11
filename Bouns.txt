@@ -1,0 +1,10 @@
+Closure: Is a combination of a functions bundled together(a function inside a function(enclosed)),with a reference to access the outer functions.
+
+
+
+Hoisting: is a behavior where variables and functions are moved to the top of the scope during compiling before declaring them in the code.
+
+ex:
+
+console.log(myVar); 
+var myVar = 5;
